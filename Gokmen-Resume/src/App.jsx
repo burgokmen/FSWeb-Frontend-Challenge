@@ -1,14 +1,19 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Options from "./components/Options";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+
 function App() {
   return (
     <>
-      <div></div>
-      <header className="text-3xl font-bold">Gökmen</header>
-      <div className="hero"></div>
-
-      <div className="profile"></div>
-
-      <div className="projects"></div>
-      <footer></footer>
+      <Options />
+      <Header />
+      <Hero />
+      <Profile />
+      <Projects />
+      <Footer />
     </>
   );
 }
