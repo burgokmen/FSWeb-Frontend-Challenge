@@ -1,5 +1,12 @@
-import React from "react";
+import Options from "./Options";
+import Header from "./components/Header";
 
 export default function Hero() {
-  return <div className="hero">Hero</div>;
+  return (
+    <div>
+      <Options />
+      <Header />
+      <div className="hero">Hero</div>
+    </div>
+  );
 }
