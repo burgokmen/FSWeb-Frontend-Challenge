@@ -7,12 +7,12 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <div className="border-solid ">
       <Hero />
       <Profile />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
 import Options from "./Options";
-import Header from "./components/Header";
+import Header from "./Header";
 
 export default function Hero() {
   return (
-    <div>
+    <div className="top-level">
       <Options />
       <Header />
       <div className="hero">Hero</div>
