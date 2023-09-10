@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Hero() {
   return (
-    <div className="top-level">
+    <div className="top-level ">
       <Options />
       <Header />
     </div>
