@@ -1,3 +1,5 @@
+import heroPhoto from "../assets/hero-right.png";
+
 function Header() {
   return (
     <header className="flex p-5">
@@ -20,7 +22,9 @@ function Header() {
           </button>
         </div>
       </div>
-      <div></div>
+      <div>
+        <img src={heroPhoto} />
+      </div>
     </header>
   );
 }
