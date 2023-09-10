@@ -6,7 +6,6 @@ export default function Hero() {
     <div className="top-level">
       <Options />
       <Header />
-      <div className="hero">Hero</div>
     </div>
   );
 }

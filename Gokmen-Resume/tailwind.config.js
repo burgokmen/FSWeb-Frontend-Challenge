@@ -6,8 +6,22 @@ export default {
       spacing: {
         13: "3.25rem",
         15: "3.75rem",
-        128: "247px",
+        128: "241px",
         144: "36rem",
+      },
+      colors: {
+        mypurp: {
+          1: "#4731d3",
+        },
+        mygreen: {
+          1: "#CBF281",
+          2: "#CAF281",
+        },
+      },
+      fontFamily: {
+        interbold: ["Inter-Bold", "Helvetica"],
+        interreg: ["Inter-Regular", "Helvetica"],
+        intermed: ["Inter-Medium", "Helvetica"],
       },
     },
   },
