@@ -1,5 +1,6 @@
 export default function Options() {
   return (
+    //TODO responsive margin need to add , states are gonna added
     <div className="flex justify-end py-2 px-128   ">
       <p className="font-interbold font-bold text-transparent text-[0.9375rem]   ">
         <span className="text-mygreen-2">TÜRKÇE</span>

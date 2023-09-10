@@ -3,7 +3,8 @@ import Header from "./Header";
 
 export default function Hero() {
   return (
-    <div className="top-level ">
+    // TODO max-w-[90rem] max-h-[41.9375rem] flex-shrink-1
+    <div className="top-level  ">
       <Options />
       <Header />
     </div>
