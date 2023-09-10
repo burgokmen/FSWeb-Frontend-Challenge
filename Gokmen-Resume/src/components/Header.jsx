@@ -36,17 +36,11 @@ function Header() {
             className="ml-[1rem] flex bg-white hover:bg-indigo-300 text-indigo-800 font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
             rel="noreferrer"
           >
-            <a
-              href="https://www.linkedin.com/in/bgokmen/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="mr-2 w-[1.3rem] h-[1.3rem]"
-                src={linkedinSvg}
-                alt="LinkedIn"
-              />
-            </a>
+            <img
+              className="mr-2 w-[1.3rem] h-[1.3rem]"
+              src={linkedinSvg}
+              alt="LinkedIn"
+            />
             Linkedin
           </a>
         </div>
