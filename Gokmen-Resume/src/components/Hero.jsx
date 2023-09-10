@@ -4,7 +4,7 @@ import Header from "./Header";
 export default function Hero() {
   return (
     // TODO max-w-[90rem] max-h-[41.9375rem] flex-shrink-1
-    <div className="top-level  ">
+    <div className="top-level pb-[7rem] ">
       <Options />
       <Header />
     </div>

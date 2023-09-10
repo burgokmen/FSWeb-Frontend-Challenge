@@ -10,6 +10,7 @@ function Header() {
           I am a Frontend
           <br /> Developer...
         </p>
+
         <p className="font-interreg font-normal text-white text-[1.5rem] ">
           ...who likes to craft solid and scalable frontend
           <br /> products with great user experiences.
@@ -21,7 +22,11 @@ function Header() {
             className="bg-white flex hover:bg-indigo-300 text-indigo-800 font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
             rel="noreferrer"
           >
-            <embed className="mr-2 w-[1.3rem] h-[1.3rem]" src={githubSvg} />
+            <img
+              className="mr-2 w-[1.3rem] h-[1.3rem]"
+              src={githubSvg}
+              alt="Github"
+            />
             Github
           </a>
 
@@ -31,14 +36,24 @@ function Header() {
             className="ml-[1rem] flex bg-white hover:bg-indigo-300 text-indigo-800 font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
             rel="noreferrer"
           >
-            <embed className="mr-2 w-[1.3rem] h-[1.3rem]" src={linkedinSvg} />
+            <a
+              href="https://www.linkedin.com/in/bgokmen/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mr-2 w-[1.3rem] h-[1.3rem]"
+                src={linkedinSvg}
+                alt="LinkedIn"
+              />
+            </a>
             Linkedin
           </a>
         </div>
       </div>
       <img
         src={heroPhoto}
-        className="w-[14.6rem] h-[13.8rem] ml-[2rem] rounded-lg"
+        className="w-[19.1rem] h-[18.3rem] ml-[2rem] rounded-lg"
       />
     </header>
   );
