@@ -36,7 +36,10 @@ function Header() {
           </a>
         </div>
       </div>
-      <img src={heroPhoto} className="w-[14.6rem] h-[13.8rem] ml-[2rem] " />
+      <img
+        src={heroPhoto}
+        className="w-[14.6rem] h-[13.8rem] ml-[2rem] rounded-lg"
+      />
     </header>
   );
 }
