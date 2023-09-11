@@ -14,8 +14,22 @@ const MapProvider = ({ children }) => {
       </ul>
     );
   }
+
+  const buttonFunc = (arr) => {
+    return arr.map((a, i) => (
+      <button
+        key={i}
+        className="bg-mypurp-1 text-white text-[0.7rem] font-bold py-2 px-4 rounded-full"
+      >
+        {a}
+      </button>
+    ));
+  };
+
   return (
-    <MapContext.Provider value={{ mapFunc }}>{children}</MapContext.Provider>
+    <MapContext.Provider value={{ mapFunc, buttonFunc }}>
+      {children}
+    </MapContext.Provider>
   );
 };
 
