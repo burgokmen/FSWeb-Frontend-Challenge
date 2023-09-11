@@ -1,16 +1,16 @@
 export const skillsArr = ["JAVASCRIPT", "NODE", "REACT"];
 export const skillsArr2 = ["VS CODE", "REDUX", "FIGMA"];
 export const profileArrTr = [
-  "Doğum tarihi",
-  " İkamet Şehri",
-  " Eğitim Durumu",
-  "Tercih Ettiği Rol",
+  "Doğum tarihi:",
+  " İkamet Şehri:",
+  " Eğitim Durumu:",
+  "Tercih Ettiği Rol:",
 ];
 export const profileArrEn = [
-  "Birthday",
-  " Location",
-  " Education",
-  "Preferred Role",
+  "Birthday:",
+  " Location:",
+  " Education:",
+  "Preferred Role:",
 ];
 
 export const profileArr2tr = [
