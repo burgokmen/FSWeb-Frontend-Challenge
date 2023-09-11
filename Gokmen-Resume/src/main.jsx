@@ -6,7 +6,9 @@ import "./index.css";
 import MapProvider from "./contexts/MapProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <MapProvider>
-    <App />
-  </MapProvider>
+  <React.StrictMode>
+    <MapProvider>
+      <App />
+    </MapProvider>
+  </React.StrictMode>
 );
