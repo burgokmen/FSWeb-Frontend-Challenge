@@ -19,9 +19,10 @@ export const profileArr2tr = [
   "Boğaziçi Üni. Ekonomi Lisans, 2014",
   "Frontend, UI",
 ];
+
 export const profileArr2en = [
   "08.01.1989 ",
   "Berkeley",
-  "Boğaziçi Uni. Economics Bachelor, 2014",
+  "Boğaziçi Uni. Economics BS, 2014",
   "Frontend, UI",
 ];
