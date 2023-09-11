@@ -17,12 +17,12 @@ const MapProvider = ({ children }) => {
 
   const buttonFunc = (arr) => {
     return arr.map((a, i) => (
-      <button
+      <span
         key={i}
-        className="bg-mypurp-1 text-white text-[0.7rem] font-bold py-2 px-4 rounded-full"
+        className="bg-mypurp-1 mr-2 text-white text-[0.7rem] font-bold py-2 px-4 rounded-full"
       >
         {a}
-      </button>
+      </span>
     ));
   };
 
