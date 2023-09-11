@@ -8,18 +8,17 @@ export default function Profile() {
   return (
     <div
       className="profile w-[90rem];
-  h-[34.5rem] bg-mypurp-1"
+  h-[28rem] bg-mypurp-1"
     >
       <h2 className="px-[7.5rem] py-[3rem] text-mygreen-1 text-[3rem] font-interbold font-bold">
         Profile
       </h2>
-      <div className="flex">
+      <div className="flex justify-center">
         <div>
-          <h3 className="font-medium">Basic Information</h3>
+          <h3 className="font-medium text-[#FFF] pb-2">Basic Information</h3>
           <div className="flex">
-            {mapFunc(profileArrEn)}
-
-            {mapFunc(profileArr2en)}
+            <div className="text-mygreen-1 ">{mapFunc(profileArrEn)}</div>
+            <div className="text-[#FFF]">{mapFunc(profileArr2en)}</div>
           </div>
         </div>
         <img
@@ -27,8 +26,10 @@ export default function Profile() {
           className="w-[12rem] h-[12rem] ml-[2rem] rounded-lg"
         />
         <div>
-          <h3 className="font-medium">About Me</h3>
-          <p>
+          <h3 className="font-medium text-[#FFF] pb-2 text-[1.875rem]">
+            About Me
+          </h3>
+          <p className="w-[18.75rem] h-[15] text-[#FFF] text-[1.125rem]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia.
             <br /> Mnima accusamus ratione soluta aperiam sit voluptate? Dicta
