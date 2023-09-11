@@ -6,10 +6,10 @@ function Header() {
   return (
     <header className="flex p-5 justify-center">
       <div>
-        <p className="font-interbold font-bold text-mygreen-1 text-[3.5rem] ">
+        <h1 className="font-interbold font-bold text-mygreen-1 text-[3.5rem] ">
           I am a Frontend
           <br /> Developer...
-        </p>
+        </h1>
 
         <p className="font-interreg font-normal text-white text-[1.5rem] ">
           ...who likes to craft solid and scalable frontend

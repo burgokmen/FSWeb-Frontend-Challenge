@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { skillsArr, skillsArr2 } from "../data";
+import { MapContext } from "../contexts/MapProvider";
 import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 import NODEPng from "../assets/NODE.png";
 import REACTPng from "../assets/REACT.png";
@@ -7,29 +9,26 @@ import REDUXPng from "../assets/REDUX.png";
 import FIGMAPng from "../assets/FIGMA.png";
 //TODO png imports and
 export default function Skills() {
-  function mapSkill(arr) {
-    return (
-      <ul>
-        {arr.map((skill, i) => (
-          <li className="flex font-interreg p-2" key={i}>
-            <img
-              className="mr-2 w-[1.3rem] h-[1.3rem]"
-              src={`${skill}Png`}
-              alt={`${skill}`}
-            />
-            {skill}
-          </li>
-        ))}
-      </ul>
-    );
-  }
+  const { mapFunc } = useContext(MapContext);
+
+  /*   <img
+  className="mr-2 w-[1.3rem] h-[1.3rem]"
+  src={`${skill}Png`}
+  alt={`${skill}`}
+/> */
+  //TODO map cagirdiktan sonra img leri ayri olarak maple yada tek tek yaz
+  //   <img
+  //   className="mr-2 w-[1.3rem] h-[1.3rem]"
+  //   src={`${skill}Png`}
+  //   alt={`${skill}`}
+  // />
   return (
     <div className="flex justify-evenly py-10 items-baseline">
-      <div className="font-interreg font-bold text-mypurp-1 text-[3rem]">
+      <h2 className="font-interreg font-bold text-mypurp-1 text-[3rem]">
         Skills
-      </div>
-      {mapSkill(skillsArr)}
-      {mapSkill(skillsArr2)}
+      </h2>
+      {mapFunc(skillsArr)}
+      {mapFunc(skillsArr2)}
     </div>
   );
 }
