@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { skillsArr, skillsArr2 } from "../data";
+import { skillsArr } from "../data";
 import { MapContext } from "../contexts/MapProvider";
 import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 import NODEPng from "../assets/NODE.png";
@@ -28,7 +28,7 @@ export default function Skills() {
         Skills
       </h2>
       {mapFunc(skillsArr)}
-      {mapFunc(skillsArr2)}
+      {/* {mapFunc(skillsArr2)} */}
     </div>
   );
 }

@@ -1,5 +1,12 @@
-export const skillsArr = ["JAVASCRIPT", "NODE", "REACT"];
-export const skillsArr2 = ["VS CODE", "REDUX", "FIGMA"];
+export const skillsArr = [
+  "JAVASCRIPT",
+  "NODE",
+  "REACT",
+  "VS CODE",
+  "REDUX",
+  "FIGMA",
+];
+//export const skillsArr2 = ["VS CODE", "REDUX", "FIGMA"];
 export const profileArrTr = [
   "Doğum tarihi:",
   " İkamet Şehri:",

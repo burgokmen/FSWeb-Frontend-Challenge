@@ -1,5 +1,5 @@
 import { createContext } from "react";
-
+import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 export const MapContext = createContext();
 
 const MapProvider = ({ children }) => {
@@ -9,6 +9,7 @@ const MapProvider = ({ children }) => {
         {arr.map((a, i) => (
           <li className="flex font-interreg font-medium p-2" key={i}>
             {a}
+            <img className="mr-2 w-[1.3rem] h-[1.3rem]" src={JAVASCRIPTPng} />
           </li>
         ))}
       </ul>
