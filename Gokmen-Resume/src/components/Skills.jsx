@@ -23,12 +23,14 @@ export default function Skills() {
   //   alt={`${skill}`}
   // />
   return (
-    <div className="flex justify-evenly py-10 items-baseline">
-      <h2 className="font-interreg font-bold text-mypurp-1 text-[3rem]">
+    <div>
+      <h2 className="font-interreg font-bold text-mypurp-1 text-[3rem] px-[7.5rem] py-[3rem] ">
         Skills
       </h2>
-      {mapFunc(skillsArr)}
-      {/* {mapFunc(skillsArr2)} */}
+      <div className="flex justify-evenly py-10 items-baseline">
+        {mapFunc(skillsArr)}
+        {/* {mapFunc(skillsArr2)} */}
+      </div>
     </div>
   );
 }
