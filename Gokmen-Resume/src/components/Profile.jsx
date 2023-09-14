@@ -15,7 +15,7 @@ export default function Profile() {
       </h2>
       <div className="flex justify-center">
         <div>
-          <h3 className="font-medium text-[#FFF] pb-2">Basic Information</h3>
+          <h3 className="font-medium  text-[#FFF] pb-2">Basic Information</h3>
           <div className="flex">
             <div className="text-mygreen-1 font-semibold">
               {mapFunc(profileArrEn)}
