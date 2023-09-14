@@ -47,7 +47,7 @@ export const projectsData = [
 
 export const buttonArr = ["react", "redux", "vercel"];
 
-const data = {
+/* const data = {
   tr: {
     header: {
       name: "GÖKMEN",
@@ -186,3 +186,4 @@ const data = {
 };
 
 export default data;
+ */

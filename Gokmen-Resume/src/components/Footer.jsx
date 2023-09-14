@@ -8,17 +8,29 @@ export default function Footer() {
         Got a question or proposal, or just want to say hello? Go ahead.
       </p>
       <a
-        className="dark:text-[#8F88FF]"
+        className="dark:text-[#8F88FF] underline"
         href="mailto:burgokmen@gmail.com "
         target="/blank"
       >
         burgokmen@gmail.com
       </a>
       <div className="flex gap-3 dark:text-[#8F88FF]">
-        <i className="fa-brands fa-x-twitter"></i>
-        <i className="fa-brands fa-codepen"></i>
-        <i className="fa-solid fa-at"></i>
-        <i className="fa-brands fa-instagram"></i>
+        <a href="https://twitter.com/bgkmn" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://codepen.io/your-work" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-codepen"></i>
+        </a>
+        <a href="mailto:burgokmen@gmail.com" target="_blank" rel="noreferrer">
+          <i className="fa-solid fa-at"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/bgkmn_/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-instagram"></i>
+        </a>
       </div>
     </footer>
   );

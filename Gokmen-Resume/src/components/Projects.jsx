@@ -31,13 +31,13 @@ export default function Projects() {
                 <div className="pb-[1.3rem]">{buttonFunc(buttonArr)}</div>
                 <div className="flex">
                   <a
-                    className="pr-2 underline text-[#CBF281]"
+                    className="pr-8 underline dark:text-[#CBF281]"
                     href="https://www.w3schools.com/"
                   >
                     View Site
                   </a>
                   <a
-                    className="underline text-[#CBF281]"
+                    className="underline dark:text-[#CBF281]"
                     href="https://www.w3schools.com/"
                   >
                     Github

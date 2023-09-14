@@ -27,7 +27,7 @@ export default function Skills() {
       <h2 className="font-interreg dark:text-mygreen-1 font-bold text-mypurp-1 text-[3rem] px-[7.5rem] py-[3rem]  ">
         Skills
       </h2>
-      <div className="flex justify-evenly py-10 items-baseline">
+      <div className="flex justify-evenly py-10 items-baseline dark:text-white">
         {mapFunc(skillsArr)}
         {/* {mapFunc(skillsArr2)} */}
       </div>
