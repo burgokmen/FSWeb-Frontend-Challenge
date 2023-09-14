@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       spacing: {
@@ -16,6 +17,11 @@ export default {
         mygreen: {
           1: "#CBF281",
           2: "#CAF281",
+        },
+        mydark: {
+          1: "#171043",
+          2: "#1A210B",
+          3: "#252128",
         },
       },
       fontFamily: {
