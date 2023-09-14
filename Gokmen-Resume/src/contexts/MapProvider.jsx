@@ -20,7 +20,7 @@ const MapProvider = ({ children }) => {
     return arr.map((a, i) => (
       <span
         key={i}
-        className="bg-mypurp-1 mr-2 text-white text-[0.7rem] font-bold py-2 px-4 rounded-full"
+        className="bg-mypurp-1 dark:bg-[#8173DA] mr-2 text-white text-[0.7rem] font-bold py-2 px-4 rounded-full"
       >
         {a}
       </span>

@@ -7,12 +7,20 @@
 } */
 
 .top-level {
-  background-color: ;
   background: linear-gradient(
     to right,
     #4731d3 0%,
     #4731d3 70%,
     #cbf281 70%,
     #cbf281 100%
+  );
+}
+.top-level-dark {
+  background: linear-gradient(
+    to right,
+    #171043 0%,
+    #171043 70%,
+    #1a210b 70%,
+    #1a210b 100%
   );
 }

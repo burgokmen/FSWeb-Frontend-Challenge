@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     <div
       className="profile w-[90rem];
-  h-[28rem] bg-mypurp-1"
+  h-[28rem] bg-mypurp-1  dark:bg-mydark-1"
     >
       <h2 className="px-[7.5rem] py-[3rem] text-mygreen-1 text-[3rem] font-interbold font-bold">
         Profile

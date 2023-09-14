@@ -6,10 +6,12 @@ export default function Options() {
     useContext(SettingsContext);
   return (
     //TODO responsive margin need to add , states are gonna added
-    <div className="flex justify-end py-[2rem] px-128   ">
+    <div className="flex justify-end py-[2rem]  ">
       <p className="font-interbold font-bold text-transparent text-[0.9375rem]   ">
-        <span className="text-mygreen-2">TÜRKÇE</span>
-        <span className="text-[#d9d9d9] p-2 mr-2">’YE GEÇ</span>
+        <span className="text-mygreen-2 dark:text-[#BAB2E7]">TÜRKÇE</span>
+        <span className="text-[#d9d9d9] dark:text-[#777777] p-2 mr-2">
+          ’YE GEÇ
+        </span>
       </p>
       <div className="header-right bg-green  min-w-[30%] ">
         <div className="bg-green ">
@@ -35,7 +37,7 @@ export default function Options() {
               </div>
               <div
                 onClick={darkModeHandler}
-                className=" font-['Inter']tracking-[1.5] text-[#d9d9d9]"
+                className=" font-['Inter'] tracking-[1.5] text-[#d9d9d9]"
               >
                 LIGHT MODE
               </div>

@@ -23,8 +23,8 @@ export default function Skills() {
   //   alt={`${skill}`}
   // />
   return (
-    <div>
-      <h2 className="font-interreg font-bold text-mypurp-1 text-[3rem] px-[7.5rem] py-[3rem] ">
+    <div className="dark:bg-mydark-3">
+      <h2 className="font-interreg font-bold text-mypurp-1 text-[3rem] px-[7.5rem] py-[3rem]  ">
         Skills
       </h2>
       <div className="flex justify-evenly py-10 items-baseline">
