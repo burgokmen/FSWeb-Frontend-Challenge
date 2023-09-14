@@ -19,11 +19,11 @@ function Header() {
           <a
             href="https://github.com/burgokmen"
             target="_blank"
-            className="bg-white flex hover:bg-indigo-300 text-indigo-800 font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
+            className="bg-white dark:bg-[#252128] flex hover:bg-indigo-300 text-indigo-800 dark:text-[#FFFFFF] font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
             rel="noreferrer"
           >
             <img
-              className="mr-2 w-[1.3rem] h-[1.3rem]"
+              className="mr-2 w-[1.3rem] h-[1.3rem]  "
               src={githubSvg}
               alt="Github"
             />
@@ -33,11 +33,11 @@ function Header() {
           <a
             href="https://www.linkedin.com/in/bgokmen/"
             target="_blank"
-            className="ml-[1rem] flex bg-white hover:bg-indigo-300 text-indigo-800 font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
+            className="ml-[1rem] dark:bg-[#252128] flex bg-white hover:bg-indigo-300 text-indigo-800 dark:text-[#FFFFFF] font-intermed font-medium text-[18px] py-2 px-4 border border-blue-700 rounded"
             rel="noreferrer"
           >
             <img
-              className="mr-2 w-[1.3rem] h-[1.3rem]"
+              className="mr-2 w-[1.3rem] h-[1.3rem] dark:fill-[#FFFFFF] "
               src={linkedinSvg}
               alt="LinkedIn"
             />
