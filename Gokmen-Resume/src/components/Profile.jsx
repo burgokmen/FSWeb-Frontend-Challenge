@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { MapContext } from "../contexts/MapProvider";
-import data, { profileArr2en, profileArrEn } from "../data";
+import data from "../data";
 import heroPhoto from "../assets/project-photo.png";
 import { SettingsContext } from "../contexts/SettingsProvider";
 
@@ -22,10 +22,10 @@ export default function Profile() {
           </h3>
           <div className="flex">
             <div className="text-mygreen-1 font-semibold w-[101px] h-[222px]">
-              {mapFunc(profileArrEn)}
+              {mapFunc(data[language].profile.profileArr)}
             </div>
             <div className="text-[#FFF] font-normal w-[189px] h-[222px]">
-              {mapFunc(profileArr2en)}
+              {mapFunc(data[language].profile.profileArr2)}
             </div>
           </div>
         </div>

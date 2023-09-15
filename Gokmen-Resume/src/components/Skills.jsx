@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import data, { skillsArr, skillsArr2 } from "../data";
+import data from "../data";
 import { MapContext } from "../contexts/MapProvider";
 import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 import NODEPng from "../assets/NODE.png";
@@ -29,8 +29,8 @@ export default function Skills() {
         {data[language].skills.skils}
       </h2>
       <div className="flex justify-evenly py-10 items-baseline dark:text-white">
-        {mapFunc(skillsArr)}
-        {mapFunc(skillsArr2)}
+        {mapFunc(data[language].skills.skillsArr)}
+        {mapFunc(data[language].skills.skillsArr2)}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import heroPhoto from "../assets/hero.photo.png";
+import gokmen from "../assets/gokmen2.png";
 import githubSvg from "../assets/github.svg";
 import linkedinSvg from "../assets/LinkedIn.svg";
 import data from "../data";
@@ -49,10 +49,7 @@ function Header() {
           </a>
         </div>
       </div>
-      <img
-        src={heroPhoto}
-        className="w-[19.1rem] h-[18.3rem] ml-[10rem] rounded-lg"
-      />
+      <img src={gokmen} className="w-[14rem] h-[18rem] ml-[10rem] rounded-lg" />
     </header>
   );
 }
