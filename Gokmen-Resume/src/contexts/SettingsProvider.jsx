@@ -47,7 +47,12 @@ const SettingsProvider = ({ children }) => {
 
   return (
     <SettingsContext.Provider
-      value={{ language, setLanguage, darkModeHandler, darkMode }}
+      value={{
+        language,
+        setLanguage,
+        darkModeHandler,
+        darkMode,
+      }}
     >
       {children}
     </SettingsContext.Provider>

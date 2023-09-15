@@ -1,12 +1,6 @@
-export const skillsArr = [
-  "JAVASCRIPT",
-  "NODE",
-  "REACT",
-  "VS CODE",
-  "REDUX",
-  "FIGMA",
-];
-//export const skillsArr2 = ["VS CODE", "REDUX", "FIGMA"];
+export const skillsArr = ["JAVASCRIPT", "NODE", "REACT"];
+export const skillsArr2 = ["VS CODE", "REDUX", "FIGMA"];
+
 export const profileArrTr = [
   "Doğum tarihi:",
   " İkamet Şehri:",
@@ -18,20 +12,6 @@ export const profileArrEn = [
   " Location:",
   "Status of Education:",
   "Preferred Role:",
-];
-
-export const profileArr2tr = [
-  "01.08.1989 ",
-  "Berkeley",
-  "Boğaziçi Üni. Ekonomi, 2014",
-  "Frontend, UI",
-];
-
-export const profileArr2en = [
-  "08.01.1989 ",
-  "Berkeley",
-  "Boğaziçi Uni. Economics, 2014",
-  "Frontend, UI",
 ];
 
 export const projectsData = [
@@ -47,23 +27,37 @@ export const projectsData = [
 
 export const buttonArr = ["react", "redux", "vercel"];
 
-/* const data = {
+export const profileArr2tr = [
+  "01.08.1989 ",
+  "Berkeley",
+  "Boğaziçi Üni. Ekonomi, 2014",
+  "Frontend, UI",
+];
+
+export const profileArr2en = [
+  "08.01.1989 ",
+  "Berkeley",
+  "Boğaziçi Uni. Economics, 2014",
+  "Frontend, UI",
+];
+
+const data = {
   tr: {
     header: {
       name: "GÖKMEN",
       title: "Ben Bir Önyüz",
       titleSecond: "Yazılımcı'sıyım...",
-      description:
-        "...mükemmel kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir ürünleri oluşturmayı seven.",
+      description: "...mükemmel kullanıcı deneyimlerine sahip",
+      description2: "sağlam ve ölçeklenebilir ürünleri oluşturmayı seven.",
       to: "TO",
       languageSwitch: "ENGLISH",
     },
     skills: {
       skils: "Yetenekler",
-      skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
+      /* skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
       skillsArray2: [NodeLogo, VsCodeLogo, FigmaLogo],
       skillsDarkArray1: [JavascriptDark, ReactDark, ReduxDark],
-      skillsDarkArray2: [nodeDark, vsDark, figmaDark],
+      skillsDarkArray2: [nodeDark, vsDark, figmaDark], */
     },
     profile: {
       profile: "Profil Bilgilerim",
@@ -84,7 +78,7 @@ export const buttonArr = ["react", "redux", "vercel"];
       aboutMeSecondP:
         "Problem cozmeyi seven bir yapim var, sectigim meslekte bu ve arastirip, ogrenmek cok onemli, bunlarda bende olan ozellikler ",
     },
-    projects: {
+    /* projects: {
       title: "Projelerim",
       visit: "Siteyi Görüntüle",
       projectsArray: [
@@ -107,7 +101,7 @@ export const buttonArr = ["react", "redux", "vercel"];
           url: "https://agendatasks.vercel.app/",
         },
       ],
-    },
+    }, */
     footer: {
       title: "Bana mesaj gönderin!",
       description:
@@ -121,17 +115,17 @@ export const buttonArr = ["react", "redux", "vercel"];
       name: "BRUNO",
       title: "I am a Frontend",
       titleSecond: "Developer...",
-      description:
-        "...who likes to craft solid and scalable frontend products with great user experiences.",
+      description: "...who likes to craft solid and scalable frontend",
+      description2: "products with great user experiences.",
       to: "TÜRKÇE",
       languageSwitch: "'YE GEÇ",
     },
     skills: {
       skils: "Skills",
-      skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
+      /* skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
       skillsArray2: [NodeLogo, VsCodeLogo, FigmaLogo],
       skillsDarkArray1: [JavascriptDark, ReactDark, ReduxDark],
-      skillsDarkArray2: [nodeDark, vsDark, figmaDark],
+      skillsDarkArray2: [nodeDark, vsDark, figmaDark], */
     },
     profile: {
       profile: "Profile",
@@ -152,7 +146,7 @@ export const buttonArr = ["react", "redux", "vercel"];
       aboutMeSecondP:
         "I am problem solver. This is very crucial for this chosen occupation. Being a lifelong learner to catch up new skills needed ",
     },
-    projects: {
+    /* projects: {
       title: "Projects",
       visit: "View Site",
       projectsArray: [
@@ -175,7 +169,7 @@ export const buttonArr = ["react", "redux", "vercel"];
           url: "https://agendatasks.vercel.app/",
         },
       ],
-    },
+    }, */
     footer: {
       title: "Send me a message!",
       description:
@@ -186,4 +180,3 @@ export const buttonArr = ["react", "redux", "vercel"];
 };
 
 export default data;
- */

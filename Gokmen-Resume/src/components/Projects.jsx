@@ -1,17 +1,19 @@
 import { useContext } from "react";
 import heroPhoto from "../assets/project-photo.png";
-import { buttonArr, projectsData } from "../data";
+import data, { buttonArr, projectsData } from "../data";
 import { MapContext } from "../contexts/MapProvider";
+import { SettingsContext } from "../contexts/SettingsProvider";
 
 //TODO real project photos and links need to be added
 
 export default function Projects() {
   const { buttonFunc } = useContext(MapContext);
+  const { language } = useContext(SettingsContext);
 
   return (
     <div className="projects bg-mygreen-1 dark:bg-mydark-2 ">
       <h2 className="px-[16.66%] py-[3rem] text-mypurp-1 dark:text-mygreen-1 text-[3rem] font-interbold font-bold">
-        Projects
+        {data[language].projects?.title}
       </h2>
       {projectsData.map((pr, i) => {
         return (

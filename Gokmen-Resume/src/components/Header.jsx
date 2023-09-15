@@ -1,19 +1,23 @@
 import heroPhoto from "../assets/hero.photo.png";
 import githubSvg from "../assets/github.svg";
 import linkedinSvg from "../assets/LinkedIn.svg";
+import data from "../data";
+import { SettingsContext } from "../contexts/SettingsProvider";
+import { useContext } from "react";
 
 function Header() {
+  const { language } = useContext(SettingsContext);
   return (
     <header className="flex p-5 justify-center flex-col sm:flex-row">
       <div>
         <h1 className="font-interbold font-bold sm:text-mygreen-1 text-[#333232] text-[3.5rem] ">
-          I am a Frontend
-          <br /> Developer...
+          {data[language].header.title}
+          <br /> {data[language].header.titleSecond}
         </h1>
 
         <p className="font-interreg font-normal text-white text-[1.5rem] ">
-          ...who likes to craft solid and scalable frontend
-          <br /> products with great user experiences.
+          {data[language].header.description}
+          <br /> {data[language].header.description2}
         </p>
         <div className="flex">
           <a

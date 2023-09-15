@@ -1,18 +1,22 @@
+import { useContext } from "react";
+import data from "../data";
+import { SettingsContext } from "../contexts/SettingsProvider";
+
 export default function Footer() {
+  const { language } = useContext(SettingsContext);
+
   return (
     <footer className="py-[2rem] flex flex-col items-center gap-[1.5rem] dark:bg-mydark-3 ">
       <h5 className="font-bold font-interreg text-[3rem] dark:text-[#8F88FF] text-mypurp-1 text-[3rem] ">
-        Send me a message!
+        {data[language].footer.title}
       </h5>
-      <p className="dark:text-[#FFFFFF]">
-        Got a question or proposal, or just want to say hello? Go ahead.
-      </p>
+      <p className="dark:text-[#FFFFFF]">{data[language].footer.description}</p>
       <a
         className="dark:text-[#8F88FF] underline"
         href="mailto:burgokmen@gmail.com "
         target="/blank"
       >
-        burgokmen@gmail.com
+        {data[language].footer.mail}
       </a>
       <div className="flex gap-3 dark:text-[#8F88FF]">
         <a href="https://twitter.com/bgkmn" target="_blank" rel="noreferrer">

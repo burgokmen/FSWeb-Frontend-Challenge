@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { skillsArr } from "../data";
+import data, { skillsArr, skillsArr2 } from "../data";
 import { MapContext } from "../contexts/MapProvider";
 import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 import NODEPng from "../assets/NODE.png";
@@ -7,10 +7,11 @@ import REACTPng from "../assets/REACT.png";
 import VS_CODEPng from "../assets/VS CODE.png";
 import REDUXPng from "../assets/REDUX.png";
 import FIGMAPng from "../assets/FIGMA.png";
+import { SettingsContext } from "../contexts/SettingsProvider";
 //TODO png imports and
 export default function Skills() {
   const { mapFunc } = useContext(MapContext);
-
+  const { language } = useContext(SettingsContext);
   /*   <img
   className="mr-2 w-[1.3rem] h-[1.3rem]"
   src={`${skill}Png`}
@@ -25,11 +26,11 @@ export default function Skills() {
   return (
     <div className="dark:bg-mydark-3">
       <h2 className="font-interreg dark:text-mygreen-1 font-bold text-mypurp-1 text-[3rem] px-[16.66%] py-[3rem]  ">
-        Skills
+        {data[language].skills.skils}
       </h2>
       <div className="flex justify-evenly py-10 items-baseline dark:text-white">
         {mapFunc(skillsArr)}
-        {/* {mapFunc(skillsArr2)} */}
+        {mapFunc(skillsArr2)}
       </div>
     </div>
   );
