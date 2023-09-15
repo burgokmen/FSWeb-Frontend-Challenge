@@ -1,4 +1,4 @@
-import gokmen from "../assets/gokmen2.png";
+//import gokmen from "../assets/gokmen2.png";
 import githubSvg from "../assets/github.svg";
 import linkedinSvg from "../assets/LinkedIn.svg";
 import data from "../data";
