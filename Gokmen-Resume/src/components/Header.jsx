@@ -10,7 +10,8 @@ function Header() {
   return (
     <header className="flex p-5 justify-center flex-col sm:flex-row">
       <div>
-        <h1 className="font-interbold font-bold sm:text-mygreen-1 text-[#333232] text-[3.5rem] ">
+        {/* <h1 className="font-interbold font-bold sm:text-mygreen-1 text-[#333232] text-[3.5rem] "> */}
+        <h1 className="font-interbold font-bold text-mygreen-1  text-[3.5rem] ">
           {data[language].header.title}
           <br /> {data[language].header.titleSecond}
         </h1>
@@ -49,7 +50,7 @@ function Header() {
           </a>
         </div>
       </div>
-      <img src={gokmen} className="w-[14rem] h-[18rem] ml-[10rem] rounded-lg" />
+      {/* <img src={gokmen} className="w-[14rem] h-[18rem] ml-[10rem] rounded-lg" /> */}
     </header>
   );
 }
