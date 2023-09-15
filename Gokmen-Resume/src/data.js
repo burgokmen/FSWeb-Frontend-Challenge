@@ -19,7 +19,7 @@ const data = {
       languageSwitch: "ENGLISH",
     },
     skills: {
-      skils: "Yetenekler",
+      skills: "Yetenekler",
       skillsArr: ["JAVASCRIPT", "NODE", "REACT"],
       skillsArr2: ["VS CODE", "REDUX", "FIGMA"],
       skillsPng: [JAVASCRIPTPng, NODEPng, REACTPng],
@@ -91,7 +91,7 @@ const data = {
       languageSwitch: "'YE GEÇ",
     },
     skills: {
-      skils: "Skills",
+      skills: "Skills",
       skillsArr: ["JAVASCRIPT", "NODE", "REACT"],
       skillsArr2: ["VS CODE", "REDUX", "FIGMA"],
       skillsPng: [JAVASCRIPTPng, NODEPng, REACTPng],
