@@ -41,7 +41,7 @@ const data = {
     },
     projects: {
       title: "Projelerim",
-      visit: "Siteyi Görüntüle",
+
       buttonArr: ["react", "redux", "vercel"],
       projectsArray: [
         {
@@ -51,6 +51,7 @@ const data = {
             "React uygulamasıyla yapılmış bir Pizza Sipariş Sitesi Projesi. Ana sayfa , Sipariş Sayfası ve Sipariş Tamamlandı Sayfası SPA kullanılarak oluşturulmuştur.",
           github: "https://github.com/burgokmen/fsweb-s7-challenge-pizza",
           url: "https://pizza-order-page.vercel.app",
+          visit: "Siteyi Görüntüle",
         },
         {
           title: "Siparis Sepeti",
@@ -59,6 +60,7 @@ const data = {
             "Film siparis sayfasi, fiyat hesaplama, film ekleme kaldirma.",
           github: "https://github.com/burgokmen/fsweb-s11g1-shopping-cart/",
           url: "https://fsweb-s11g1-shopping-cart-nu.vercel.app",
+          visit: "Siteyi Görüntüle",
         },
       ],
     },
@@ -109,7 +111,6 @@ const data = {
     },
     projects: {
       title: "Projects",
-      visit: "View Site",
       buttonArr: ["react", "redux", "vercel"],
       projectsArray: [
         {
@@ -119,6 +120,7 @@ const data = {
             "A Pizza Ordering Site Project made with React application. Home page, Order Page and Order Completed Page were created using SPA.",
           github: "https://github.com/burgokmen/fsweb-s7-challenge-pizza",
           url: "https://pizza-order-page.vercel.app",
+          visit: "View Site",
         },
         {
           title: "Shopping Cart",
@@ -127,6 +129,7 @@ const data = {
             "A movie shopping cart project. You can add, delete , check prices ",
           github: "https://github.com/burgokmen/fsweb-s11g1-shopping-cart/",
           url: "https://fsweb-s11g1-shopping-cart-nu.vercel.app",
+          visit: "View Site",
         },
       ],
     },

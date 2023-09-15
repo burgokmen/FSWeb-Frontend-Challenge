@@ -21,13 +21,13 @@ export default function Projects() {
             key={i}
             className="flex-col pb-10 max-[500px]:max-w-[300px] ml-2  "
           >
-            <div className="flex justify-center  ">
+            <div className="flex flex-wrap justify-center  ">
               <img
                 className="w-[32rem] h-[20rem] rounded-l-xl "
                 src={pr.img}
                 alt="Proce"
               />
-              <div className="w-[22rem] h-[20rem] p-6 rounded-r-xl bg-white flex-col dark:bg-mydark-3 ">
+              <div className="w-[22rem] h-[20rem] p-6 rounded-r-xl bg-white flex flex-col dark:bg-mydark-3 ">
                 <h3 className="font-bold text-[1.6rem] pb-[1.3rem] dark:text-[#C1BAED] ">
                   {pr.title}
                 </h3>
@@ -42,7 +42,7 @@ export default function Projects() {
                     className="pr-8 underline dark:text-[#CBF281]"
                     href={pr.url}
                   >
-                    View Site
+                    {pr.visit}
                   </a>
                   <a className="underline dark:text-[#CBF281]" href={pr.github}>
                     Github
