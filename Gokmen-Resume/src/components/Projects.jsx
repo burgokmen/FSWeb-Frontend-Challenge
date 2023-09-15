@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import heroPhoto from "../assets/project-photo.png";
 import data from "../data";
 import { MapContext } from "../contexts/MapProvider";
 import { SettingsContext } from "../contexts/SettingsProvider";
