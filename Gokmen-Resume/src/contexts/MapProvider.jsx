@@ -5,11 +5,10 @@ export const MapContext = createContext();
 const MapProvider = ({ children }) => {
   function mapFunc(arr) {
     return (
-      <ul>
+      <ul className="max-w-[11rem]">
         {arr.map((a, i) => (
           <li className="flex font-interreg font-medium p-2" key={i}>
             {a}
-            <img className="mr-2 w-[1.3rem] h-[1.3rem]" src={JAVASCRIPTPng} />
           </li>
         ))}
       </ul>

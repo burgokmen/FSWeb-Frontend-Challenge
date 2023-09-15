@@ -24,7 +24,7 @@ export default function Skills() {
   // />
   return (
     <div className="dark:bg-mydark-3">
-      <h2 className="font-interreg dark:text-mygreen-1 font-bold text-mypurp-1 text-[3rem] px-[7.5rem] py-[3rem]  ">
+      <h2 className="font-interreg dark:text-mygreen-1 font-bold text-mypurp-1 text-[3rem] px-[16.66%] py-[3rem]  ">
         Skills
       </h2>
       <div className="flex justify-evenly py-10 items-baseline dark:text-white">

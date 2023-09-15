@@ -16,21 +16,21 @@ export const profileArrTr = [
 export const profileArrEn = [
   "Birthday:",
   " Location:",
-  " Education:",
+  "Status of Education:",
   "Preferred Role:",
 ];
 
 export const profileArr2tr = [
   "01.08.1989 ",
   "Berkeley",
-  "Boğaziçi Üni. Ekonomi Lisans, 2014",
+  "Boğaziçi Üni. Ekonomi, 2014",
   "Frontend, UI",
 ];
 
 export const profileArr2en = [
   "08.01.1989 ",
   "Berkeley",
-  "Boğaziçi Uni. Economics BS, 2014",
+  "Boğaziçi Uni. Economics, 2014",
   "Frontend, UI",
 ];
 

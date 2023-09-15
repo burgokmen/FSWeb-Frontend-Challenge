@@ -9,13 +9,16 @@ export default function Projects() {
   const { buttonFunc } = useContext(MapContext);
 
   return (
-    <div className="projects bg-mygreen-1 dark:bg-mydark-2 h-[60rem]">
-      <h2 className="px-[7.5rem] py-[3rem] text-mypurp-1 dark:text-mygreen-1 text-[3rem] font-interbold font-bold">
+    <div className="projects bg-mygreen-1 dark:bg-mydark-2 ">
+      <h2 className="px-[16.66%] py-[3rem] text-mypurp-1 dark:text-mygreen-1 text-[3rem] font-interbold font-bold">
         Projects
       </h2>
       {projectsData.map((pr, i) => {
         return (
-          <div key={i} className="flex-col pb-10 ">
+          <div
+            key={i}
+            className="flex-col pb-10 max-[500px]:max-w-[300px] ml-2  "
+          >
             <div className="flex justify-center  ">
               <img
                 className="w-[20rem] h-[20rem] rounded-l-xl "

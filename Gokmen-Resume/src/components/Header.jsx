@@ -4,7 +4,7 @@ import linkedinSvg from "../assets/LinkedIn.svg";
 
 function Header() {
   return (
-    <header className="flex p-5 justify-center">
+    <header className="flex p-5 justify-center flex-col sm:flex-row">
       <div>
         <h1 className="font-interbold font-bold text-mygreen-1 text-[3.5rem] ">
           I am a Frontend
@@ -47,7 +47,7 @@ function Header() {
       </div>
       <img
         src={heroPhoto}
-        className="w-[19.1rem] h-[18.3rem] ml-[2rem] rounded-lg"
+        className="w-[19.1rem] h-[18.3rem] ml-[10rem] rounded-lg"
       />
     </header>
   );
