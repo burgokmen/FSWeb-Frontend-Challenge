@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="flex p-5 justify-center flex-col sm:flex-row">
       <div>
-        <h1 className="font-interbold font-bold text-mygreen-1 text-[3.5rem] ">
+        <h1 className="font-interbold font-bold sm:text-mygreen-1 text-[#333232] text-[3.5rem] ">
           I am a Frontend
           <br /> Developer...
         </h1>

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import heroPhoto from "../assets/project-photo.png";
 import { buttonArr, projectsData } from "../data";
 import { MapContext } from "../contexts/MapProvider";
-//TODO border radius need to added + shadow can be added lin18
+
 //TODO real project photos and links need to be added
 
 export default function Projects() {

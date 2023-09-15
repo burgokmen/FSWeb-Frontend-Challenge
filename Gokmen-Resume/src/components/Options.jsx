@@ -5,7 +5,6 @@ export default function Options() {
   const { language, setLanguage, darkModeHandler, darkMode } =
     useContext(SettingsContext);
   return (
-    //TODO responsive margin need to add , states are gonna added
     <div className="flex justify-end py-[2rem]  ">
       <p className="font-interbold font-bold text-transparent text-[0.9375rem]   ">
         <span className="text-mygreen-2 dark:text-[#BAB2E7]">TÜRKÇE</span>
