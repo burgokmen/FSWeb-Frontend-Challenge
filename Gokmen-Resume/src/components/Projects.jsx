@@ -4,8 +4,6 @@ import data from "../data";
 import { MapContext } from "../contexts/MapProvider";
 import { SettingsContext } from "../contexts/SettingsProvider";
 
-//TODO real project photos and links need to be added
-
 export default function Projects() {
   const { buttonFunc } = useContext(MapContext);
   const { language } = useContext(SettingsContext);
