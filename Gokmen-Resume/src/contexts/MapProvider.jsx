@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import JAVASCRIPTPng from "../assets/JAVASCRIPT.png";
 export const MapContext = createContext();
 
 const MapProvider = ({ children }) => {
@@ -15,6 +14,18 @@ const MapProvider = ({ children }) => {
     );
   }
 
+  function mapSkill(arr) {
+    return (
+      <div className="flex flex-col ">
+        {arr.map((a, i) => (
+          <div key={i}>
+            <img className=" mr-2 w-[2.5rem] h-[2.5rem]" src={a} alt="SKILLS" />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   const buttonFunc = (arr) => {
     return arr.map((a, i) => (
       <span
@@ -27,7 +38,7 @@ const MapProvider = ({ children }) => {
   };
 
   return (
-    <MapContext.Provider value={{ mapFunc, buttonFunc }}>
+    <MapContext.Provider value={{ mapFunc, buttonFunc, mapSkill }}>
       {children}
     </MapContext.Provider>
   );

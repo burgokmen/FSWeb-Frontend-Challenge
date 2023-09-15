@@ -1,5 +1,11 @@
 import pizza from "../src/assets/pizza.png";
 import cart from "../src/assets/cart.png";
+import JAVASCRIPTPng from "../src/assets/JAVASCRIPT.png";
+import NODEPng from "../src/assets/NODE.png";
+import REACTPng from "../src/assets/REACT.png";
+import VS_CODEPng from "../src/assets/VS CODE.png";
+import REDUXPng from "../src/assets/REDUX.png";
+import FIGMAPng from "../src/assets/FIGMA.png";
 
 const data = {
   tr: {
@@ -16,6 +22,8 @@ const data = {
       skils: "Yetenekler",
       skillsArr: ["JAVASCRIPT", "NODE", "REACT"],
       skillsArr2: ["VS CODE", "REDUX", "FIGMA"],
+      skillsPng: [JAVASCRIPTPng, NODEPng, REACTPng],
+      skillsPng2: [VS_CODEPng, REDUXPng, FIGMAPng],
     },
     profile: {
       profile: "Profil",
@@ -86,6 +94,8 @@ const data = {
       skils: "Skills",
       skillsArr: ["JAVASCRIPT", "NODE", "REACT"],
       skillsArr2: ["VS CODE", "REDUX", "FIGMA"],
+      skillsPng: [JAVASCRIPTPng, NODEPng, REACTPng],
+      skillsPng2: [VS_CODEPng, REDUXPng, FIGMAPng],
     },
     profile: {
       profile: "Profile",
