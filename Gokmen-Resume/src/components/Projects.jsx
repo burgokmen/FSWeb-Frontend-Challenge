@@ -16,15 +16,11 @@ export default function Projects() {
         return (
           <div
             key={i}
-            className="flex-col pb-10 max-[500px]:max-w-[300px] ml-2  "
+            className="flex-col pb-10 w-160 md:w-320 lg:w-480 ml-2  "
           >
             <div className="flex flex-wrap justify-center  ">
-              <img
-                className="w-[32rem] h-[20rem] rounded-l-xl "
-                src={pr.img}
-                alt="Proce"
-              />
-              <div className="w-[22rem] h-[20rem] p-6 rounded-r-xl bg-white flex flex-col dark:bg-mydark-3 ">
+              <img className="w-[32rem] h-[20rem]  " src={pr.img} alt="Proce" />
+              <div className="w-[32rem] h-[20rem] p-6  bg-white flex flex-col dark:bg-mydark-3 ">
                 <h3 className="font-bold text-[1.6rem] pb-[1.3rem] dark:text-[#C1BAED] ">
                   {pr.title}
                 </h3>
