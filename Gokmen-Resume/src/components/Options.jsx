@@ -95,7 +95,7 @@ export default function Options() {
           </div>
         </div>
       </div>
-      <p className="text-mygreen-1 font-interbold font-bold text-[1.5rem] ml-60">
+      <p className="text-mygreen-1 font-interbold font-bold text-[1.5rem] sm:ml-60 ml-10">
         {data[language].header.name}
       </p>
     </div>
