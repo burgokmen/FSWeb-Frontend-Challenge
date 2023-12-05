@@ -8,18 +8,18 @@ import { useContext } from "react";
 function Header() {
   const { language } = useContext(SettingsContext);
   return (
-    <header className="flex flex-wrap p-5 justify-center flex-col sm:flex-row ">
-      <div>
-        <h1 className="font-interbold font-bold sm:text-mygreen-1 text-[#333232] text-[3.5rem] ">
+    <header className="flex flex-wrap p-5 justify-center flex-row gap-10 lg:gap-0 ">
+      <div className="flex flex-col gap-5">
+        <h1 className="font-interbold font-bold dark:text-mygreen-1   text-[3.5rem] ">
           {data[language].header.title}
           <br /> {data[language].header.titleSecond}
         </h1>
 
-        <p className="font-interreg font-normal text-white text-[1.5rem] ">
+        <p className="font-interreg font-normal text-white sm:text-[1.5rem]  ">
           {data[language].header.description}
           <br /> {data[language].header.description2}
         </p>
-        <div className="flex">
+        <div className="flex sm:justify-start justify-evenly">
           <a
             href="https://github.com/burgokmen"
             target="_blank"
@@ -49,7 +49,11 @@ function Header() {
           </a>
         </div>
       </div>
-      <img src={gokmen} className="w-[14rem] h-[18rem] ml-[10rem] rounded-lg" />
+
+      <img
+        src={gokmen}
+        className="w-[14rem] h-[18rem] lg:ml-[10rem] rounded-lg"
+      />
     </header>
   );
 }
