@@ -20,7 +20,7 @@ export default function Projects() {
           >
             <div className="flex flex-wrap justify-center  ">
               <img className="w-[32rem] h-[20rem]  " src={pr.img} alt="Proce" />
-              <div className="w-[32rem] h-[20rem] p-6  bg-white flex flex-col dark:bg-mydark-3 ">
+              <div className="w-[32rem] lg:h-[20rem] p-6  bg-white flex flex-col dark:bg-mydark-3 ">
                 <h3 className="font-bold text-[1.6rem] pb-[1.3rem] dark:text-[#C1BAED] ">
                   {pr.title}
                 </h3>
