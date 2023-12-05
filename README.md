@@ -10,7 +10,7 @@ Welcome to my Resume Single Page Application! This project is designed to showca
 ### normalize css for consistent rendering across different browsers.
 ### Design Inspiration
 
-The design of this application is inspired by the meticulous planning in Figma. You can explore the detailed design here. The thoughtful consideration put into the design aims to provide a seamless and visually appealing experience to the users.
+The design of this application is inspired by the meticulous planning in Figma. You can explore the detailed design [here](https://www.figma.com/file/YuAwEInBB8GqOO7wNosr5j/s12-design-darkmode?type=design&node-id=0-1&mode=design). The thoughtful consideration put into the design aims to provide a seamless and visually appealing experience to the users.
 
 ## Key Features
 
