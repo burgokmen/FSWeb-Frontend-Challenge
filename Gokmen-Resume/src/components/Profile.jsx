@@ -15,7 +15,7 @@ export default function Profile() {
       <h2 className="px-[16.66%] py-[3rem] text-mygreen-1 text-[3rem] font-interbold font-bold">
         {data[language].profile.profile}
       </h2>
-      <div className="flex flex-col flex-wrap sm:flex-row justify-evenly px-[11%]">
+      <div className="flex flex-col flex-wrap sm:flex-row sm:justify-evenly px-32 gap-24 ">
         <div>
           <h3 className="font-medium  text-[#FFF] px-2 py-2">
             {data[language].profile.title}
