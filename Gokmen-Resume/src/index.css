@@ -7,7 +7,7 @@
 } */
 
 .top-level {
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
   background: linear-gradient(
     to right,
     #4731d3 0%,
@@ -17,7 +17,7 @@
   );
 }
 .top-level-dark {
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
   background: linear-gradient(
     to right,
     #171043 0%,

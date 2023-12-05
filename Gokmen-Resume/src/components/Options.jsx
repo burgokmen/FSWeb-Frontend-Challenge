@@ -23,7 +23,7 @@ export default function Options() {
   return (
     <div>
       <div className="flex justify-end py-[2rem]  ">
-        <div className="font-interbold font-bold text-transparent text-[0.9375rem]">
+        <div className="font-interbold font-bold text-transparent text-[1rem]">
           <span
             onClick={languageHandler}
             className="text-mygreen-2 dark:text-[#BAB2E7]"
@@ -37,7 +37,7 @@ export default function Options() {
             {data[language].header.languageSwitch}
           </span>
         </div>
-        <div className="header-right bg-green  min-w-[30%] ">
+        <div className="header-right bg-green  min-w-[30%] mr-10 sm:mr-0 ">
           <div className="bg-green ">
             {darkMode ? (
               <div
