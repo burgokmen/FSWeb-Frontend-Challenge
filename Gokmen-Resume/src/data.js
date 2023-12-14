@@ -110,7 +110,7 @@ const data = {
       profileArr2: [
         "08.01.1989 ",
         "Berkeley",
-        "Boğaziçi Uni. Economics, 2014",
+        "Boğaziçi Uni Economics, 2014",
         "Frontend, UI",
       ],
       aboutMe: "About Me",
